@@ -1,0 +1,717 @@
+<link rel="stylesheet" type="text/css" href="Nav/nav.css">
+<link rel="stylesheet" type="text/css" href="calculator.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+<nav>
+  <ul>
+    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="todo-list.html"><i class="fas fa-list"></i> Todo-List</a></li>
+    <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+    <li><a href="socials.html"><i class="fas fa-share-alt-square"></i> Socials</a></li>
+    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+    <li><a href="https://discord.com"><i class="fab fa-discord"></i> Discord</a></li>
+    <li><a href="https://www.youtube.com/channel/UCH8nPGup8IBddxDDxMj26jw"> <i class="fab fa-youtube"></i> Youtube </a></li>
+    
+    
+  </ul>
+</nav>
+    
+        
+            
+        
+  <div id="i038a">
+
+
+<body>
+  <div id="datetime"></div>
+
+  
+</body>
+
+
+  </div>
+  <div id="ipnzq">
+    
+  </div>
+  <div id="i6f9p">
+    <b draggable="true" id="i3esd-2">     ARTEM BRENNER
+    </b>
+  </div>
+  <div id="isl3">
+   
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZd79rJ6a7lp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+  </div>
+  <div id="i49p2">
+    
+
+
+
+    <div class="calendar">
+        <div class="month">June 2023</div>
+        <input id="prev-checkbox" class="prev-checkbox" type="checkbox"> 
+        <input id="next-checkbox" class="next-checkbox" type="checkbox">
+        <label class="prev-label" for="prev-checkbox"><span class="prev-btn">Previous</span></label>
+        <label class="next-label" for="next-checkbox"><span class="next-btn">Next</span></label>
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="days">
+          <!-- Days will be generated dynamically with JavaScript -->
+        </div>
+      </div>
+
+
+
+  </div>
+  <div id="ir1f">
+    <div style="width: 200px; height: 200px; overflow: auto; background-color: #181825; color: #cdd6f4; border-radius: 15px; padding: 10px;">
+      <form name="form">
+          <input type="text" name="display" id="display" disabled style="width: 100%; background-color: #181825; color: #cdd6f4; border: none; text-align: right; padding: 5px;">
+          <div style="display: flex; justify-content: space-between;">
+              <input type="button" value="1" onclick="form.display.value += '1'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="2" onclick="form.display.value += '2'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="3" onclick="form.display.value += '3'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="+" onclick="form.display.value += '+'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+              <input type="button" value="4" onclick="form.display.value += '4'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="5" onclick="form.display.value += '5'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="6" onclick="form.display.value += '6'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="-" onclick="form.display.value += '-'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+              <input type="button" value="7" onclick="form.display.value += '7'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="8" onclick="form.display.value += '8'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="9" onclick="form.display.value += '9'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="*" onclick="form.display.value += '*'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+              <input type="button" value="C" onclick="form.display.value = ''" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="0" onclick="form.display.value += '0'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="=" onclick="form.display.value = eval(form.display.value)" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+              <input type="button" value="/" onclick="form.display.value += '/'" style="background-color: #181825; color: #cdd6f4; border: none; flex: 1; margin: 1px; padding: 5px;">
+          </div>
+      </form>
+  </div>
+    
+  </div>
+  <div>
+  </div>
+
+
+
+
+
+  <style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+body{
+  background-color:#11111b;
+}
+#ir1f{
+  border:1px solid rgb(204, 204, 204);
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:510px;
+  left:830px;
+  background-color:#181825;
+  border-color:#b4befe;
+  border-radius:15px;
+}
+#isl3{
+  border:1px solid rgb(204, 204, 204);
+  background-color:#181825;
+  width:221px;
+  height:355px;
+  position:absolute;
+  top:354px;
+  left:600px;
+  border-radius:15px;
+  border-color:#f9e2af;
+  transform:translateX(0) translateY(0) rotateZ(0) scaleX(1) scaleY(1) scaleZ(1);
+}
+#isl3:active{
+  top:354px;
+  position:absolute;
+  border-width:1px;
+  border-color:rgb(249, 226, 175)#181825;
+}
+#ir1f:active{
+  left:830px;
+  top:509px;
+  position:absolute;
+  width:200px;
+  height:200px;
+}
+#i49p2{
+  border:1px solid rgb(204, 204, 204);
+  background-color:#181825;
+  width:323px;
+  height:355px;
+  position:absolute;
+  top:354px;
+  left:1038px;
+  border-radius:15px;
+}
+#i6f9p{
+  padding:10px;
+  position:absolute;
+  top:354px;
+  left:370px;
+  width:220.25800000000004px;
+  height:128.75px;
+  color:#cdd6f4;
+  border-radius:15px;
+  border: 1px solid #89b4fa; /* border-style set to "solid" */
+  background-color:#181825;
+  text-align:left;
+}
+
+#i038a{
+  border:1px solid rgb(204, 204, 204);
+  background-color:#181825;
+  width:200px;
+  height:146px;
+  position:absolute;
+  top:357px;
+  left:830px;
+  border-radius:15px;
+  border-color:#f38ba8;
+}
+#ipnzq{
+  border:1px solid rgb(204, 204, 204);
+  background-color:#181825;
+  width:217px;
+  height:218px;
+  position:absolute;
+  border-radius:15px;
+  top:492px;
+  left:370px;
+  border-width:1px;
+  border-color:#cba6f7;
+  background-size:cover;
+ background-image:url("dashie-assets/profilepic.jpg");
+}
+#isl3:hover{
+  opacity:0.75;
+}
+#ip3jl{
+  border:1px solid rgb(204, 204, 204);
+  width:92px;
+  height:858px;
+  position:absolute;
+  top:170px;
+  left:21px;
+  align-self:stretch;
+  background-color:#181825;
+  border-radius:15px;
+  border-color:#f9e2af;
+}
+#ip3jl:hover{
+  border-color:#f5c2e7;
+}
+#i038a:hover{
+  opacity:0.75;
+}
+#i6f9p:hover{
+  opacity:0.75;
+}
+#ir1f:hover{
+  opacity:0.75;
+}
+#i49p2:hover{
+  left:1037px;
+  width:305px !important;
+}
+}
+#ipnzq:hover{
+  opacity:0.75;
+}
+#irm4j{
+  border:1px solid rgb(204, 204, 204);
+  background-color:#fff;
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:20px;
+  left:16px;
+  border-radius:100px;
+}
+#i2zju{
+  border:1px solid rgb(204, 204, 204);
+  background-color:#fff;
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:81px;
+  left:16px;
+  border-radius:100px;
+}
+#iovhg{
+  border:1px solid rgb(204, 204, 204);
+  background-image:;
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:143px;
+  left:16px;
+  border-radius:100px;
+}
+#i776c{
+  border:1px solid rgb(204, 204, 204);
+  background-color:#fff;
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:203px;
+  left:16px;
+  border-radius:100px;
+}
+#irm4j:hover{
+  padding:0 0 0 70px;
+}
+#i2zju:hover{
+  padding:0 0 0 70px;
+  color:#cdd6f4;
+}
+#iovhg:hover{
+  padding:0 0 0 70px;
+  color:#cdd6f4;
+}
+#i776c:hover{
+  padding:0 0 0 70px;
+  color:#cdd6f4;
+}
+#i484f{
+  border:1px solid rgb(204, 204, 204);
+  color:#cdd6f4;
+  width:50px;
+  height:50px;
+  position:absolute;
+  border-radius:100px;
+  top:263px;
+  left:16px;
+}
+#i484f:hover{
+  padding:0 0 0 70px;
+}
+
+
+
+
+
+
+.calendar {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  background-color: #181825;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.month {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.prev-checkbox,
+.next-checkbox {
+  display: none;
+}
+
+.prev-label,
+.next-label {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration-color: #20232a;
+}
+
+.prev-btn{
+  display: right;
+  padding: 5px 10px;
+  background-color: #20232a;
+  border-radius: 3px;
+}
+}
+.next-btn {
+  display: left;
+  padding: 5px 10px;
+  background-color: #20232a;
+  border-radius: 3px;
+}
+
+
+.prev-checkbox:checked ~ .prev-label{
+left: auto;
+pointer-events: none;
+  opacity: 0.5;
+}
+.next-checkbox:checked ~ .next-label {
+  
+  display: left;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #cdd6f4;
+}
+
+.weekdays div {
+  text-align: center;
+  padding: 5px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  color: #cdd6f4;
+}
+
+.days div {
+  text-align: center;
+  padding: 5px;
+}
+
+.highlight {
+  background-color: #61dafb; /* Customize the highlight color */
+}
+
+
+  </style>
+
+
+
+  <style>
+    #datetime::before {
+      content: " :";
+      color:#cdd6f4;
+    }
+
+    #datetime {
+      text-align: center;
+      color:#cdd6f4;
+    }
+
+    /* Date */
+    #datetime .date {
+      box-shadow: none;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      color:#cdd6f4;
+    }
+
+    /* Time */
+    #datetime .time {
+      font-size: 18px;
+      line-height: 74.3px;
+      text-align: center;
+      letter-spacing: 2px;
+      word-spacing: -5px;
+      column-count: 1;
+      direction: ltr;
+      text-shadow: rgb(255, 255, 255) 0px 1px 1px, rgb(255, 255, 255) 0px -1px 1px, rgb(255, 255, 255) 1px 0px 1px, rgb(255, 255, 255) -1px 0px 1px;
+      white-space: pre;
+      text-decoration: none;
+      color:#cdd6f4;
+    }
+
+    /* Hour */
+    #datetime .time .hour {
+      font-size: 76px;
+      transform: translateX(-40px) translateY(0px);
+      color:#cdd6f4;
+    }
+
+    /* Minute */
+    #datetime .time .minute {
+      transform: translateX(24px) translateY(-4px);
+      font-size: 68px;
+      color:#cdd6f4;
+    }
+
+    /* Colon */
+    #datetime .time .colon {
+      font-size: 76px; /* adjust as needed */
+      color:#cdd6f4;
+    }
+
+    /* AM/PM */
+    #datetime .time .ampm {
+      font-size: 40px;
+      display:inline-block;
+      transform:translatex(-118px) translatey(43px) !important;
+      color:#cdd6f4;
+    }
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    const datetimeElement = document.getElementById("datetime");
+    setInterval(updateDateTime, 1000 * 60); // updates every minute
+    function updateDateTime() {
+      const date = new Date();
+      const dateString = date.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+      const timeParts = date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit', hour12: true }).split(/[:\s]/);
+      datetimeElement.innerHTML = `<span class="date">${dateString}</span><div class="time"><span class="hour">${timeParts[0]}</span><span class="colon">:</span><span class="minute">${timeParts[1]}</span><span class="ampm">${timeParts[2]}</span></div>`;
+    }
+
+    updateDateTime();
+  </script>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    // Get the current date
+    var currentDate = new Date();
+    
+    // Set the initial month and year for the calendar
+    var currentYear = currentDate.getFullYear();
+    var currentMonth = currentDate.getMonth();
+    
+    // Function to generate the calendar for the current month
+    function generateCalendar() {
+      // Find the container for days
+      var daysContainer = document.querySelector('.days');
+      daysContainer.innerHTML = '';
+    
+      // Get the number of days in the current month
+      var numDays = new Date(currentYear, currentMonth + 1, 0).getDate();
+    
+      // Generate the days
+      for (var i = 1; i <= numDays; i++) {
+        var dayElement = document.createElement('div');
+        dayElement.textContent = i;
+    
+        // Add the "highlight" class to the current day
+        if (currentDate.getDate() === i && currentDate.getMonth() === currentMonth) {
+          dayElement.classList.add('highlight');
+        }
+    
+        daysContainer.appendChild(dayElement);
+      }
+    
+      // Update the month label
+      var monthLabel = document.querySelector('.month');
+      monthLabel.textContent = getMonthName(currentMonth) + ' ' + currentYear;
+    }
+    
+    // Function to get the name of the month
+    function getMonthName(monthIndex) {
+      var months = [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+      ];
+      return months[monthIndex];
+    }
+    
+    // Function to navigate to the next month
+    function nextMonth() {
+      currentMonth++;
+      if (currentMonth > 11) {
+        currentMonth = 0;
+        currentYear++;
+      }
+      generateCalendar();
+    }
+    
+    // Function to navigate to the previous month
+    function previousMonth() {
+      currentMonth--;
+      if (currentMonth < 0) {
+        currentMonth = 11;
+        currentYear--;
+      }
+      generateCalendar();
+    }
+    
+    // Add event listeners to the next and previous buttons
+    var nextButton = document.querySelector('.next-btn');
+    nextButton.addEventListener('click', nextMonth);
+    
+    var prevButton = document.querySelector('.prev-btn');
+    prevButton.addEventListener('click', previousMonth);
+    
+    // Generate the calendar for the initial month
+    generateCalendar();
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+    
+      // Calculator buttons configuration
+    const buttonLabels = [
+      '7', '8', '9', '/',
+      '4', '5', '6', '*',
+      '1', '2', '3', '-',
+      '0', '.', '=', '+',
+      ,'Clear'
+    ];
+    
+    // Create calculator buttons
+    function createCalculatorButtons() {
+      const buttonsContainer = document.querySelector('.buttons');
+    
+      buttonLabels.forEach(function (label) {
+        const button = document.createElement('button');
+        button.classList.add('btn');
+        button.textContent = label;
+        buttonsContainer.appendChild(button);
+      });
+    }
+    
+    // Perform calculation
+    function calculate() {
+      const display = document.querySelector('.display');
+      const equation = display.value;
+    
+      try {
+        const result = eval(equation);
+        display.value = result;
+      } catch (error) {
+        display.value = 'Error';
+      }
+    }
+    
+    // Clear the display
+    function clearDisplay() {
+      const display = document.querySelector('.display');
+      display.value = '';
+    }
+    
+    // Add event listeners for button clicks
+    function addClickListeners() {
+      const buttons = document.querySelectorAll('.btn');
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          const display = document.querySelector('.display');
+          const currentValue = display.value;
+          const clickedValue = this.textContent;
+    
+          if (clickedValue === '=') {
+            calculate();
+          } else if (clickedValue === 'Clear') {
+            clearDisplay();
+          } else {
+            display.value = currentValue + clickedValue;
+          }
+        });
+      });
+    }
+    
+    // Initialize the calculator
+    function initCalculator() {
+      createCalculatorButtons();
+      addClickListeners();
+    }
+    
+    // Call the initCalculator function on page load
+    document.addEventListener('DOMContentLoaded', initCalculator);
+    
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+}
+
+</style>
+
+
+
+
+
+
+
+

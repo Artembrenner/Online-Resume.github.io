@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color:rgba(30,30,46,0.79);
+            transform:translatex(0px) translatey(0px);
+            color:#cdd6f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .login-container input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 200px;
+        }
+
+            /* Button */
+            .login-container button{
+            background-color:#f5e0dc;
+        }   
+    
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>nittani</h2>
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+    <script>
+        function login() {
+            const password = document.getElementById('password').value;
+            if (password === '123') {
+                window.location.href = 'dashie.html';
+            } else {
+                alert('Incorrect password');
+            }
+        }
+
+        fetch('https://nekos.life/api/v2/img/wallpaper')
+            .then(response => response.json())
+            .then(data => {
+                document.body.style.backgroundImage = `url(${data.url})`;
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+</html>

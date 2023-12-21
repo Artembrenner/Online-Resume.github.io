@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181825;
+}
+
+
+
+
+    #todo-app {
+        margin-left: 220px;
+        padding: 20px;
+        background-color: #181825;
+        border: 2px solid #aec1ff;
+        border-radius: 29px; 
+        color: #cdd6f4;
+    }
+    
+    #todo-form {
+        margin-bottom: 20px;
+        border-width:2px;
+        border-color:#aec1ff;
+       
+        
+    }
+    
+    #todo-input{
+        font-size:22px;
+        line-height:29px;
+        text-transform:none;
+        text-align:center;
+        word-spacing:4.8px;
+        letter-spacing:4.5px;
+        column-count:4;
+        color: #cdd6f4;
+        background-color: #313244;
+        border-width:2px;
+        border-color:#aec1ff;
+       
+    }
+    
+    #todo-list {
+        list-style: none;
+        padding: 0;body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #181825;
+    border: 2px solid #aec1ff;
+    padding: 10px;
+    margin: 0;
+    border-radius: 29px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #cdd6f4;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#todo-app {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+#todo-form {
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+
+
+#todo-list li {
+	
+    
+    
+    margin-bottom: 10px;
+	background-color:transparent;
+	border: 2px solid #aec1ff;
+	padding: 10px;
+	margin: 0;
+	border-radius: 29px;
+}
+
+}
+
+#todo-form {
+    margin-bottom: 20px;
+
+}
+
+#todo-input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    margin-bottom: 10px;
+	background-color:transparent;
+	border: 2px solid #aec1ff;
+	padding: 10px;
+	margin: 0;
+	border-radius: 29px;
+    font-size: 22px;
+}
+/* Button */
+#todo-form button{
+    width:87px;
+    height:54px;
+    overflow:visible;
+    background-color: #181825;
+    border: 2px solid #aec1ff;
+    color: #cdd6f4;   
+
+}
+   
+   #todo-list li input[type=checkbox]{
+ background-color:#181825;
+ width:30px;
+ height:22px;
+ color: #cdd6f4;
+ font-size: 0;
+}
+
+/* Todo input */
+#todo-input{
+ transform:translatex(0px) translatey(0px);
+ padding-left:202px;
+}
